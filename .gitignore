@@ -1,0 +1,43 @@
+# System Files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.DS_Store
+Thumbs.db
+
+# Virtual Environments
+venv/
+.venv/
+env/
+
+# IDE & Editor Configs
+.vscode/
+.idea/
+*.swp
+
+# Logs and Debug
+logs/
+*.log
+debug_*.py
+temp/
+
+# Large binaries & Checkpoints
+checkpoints/
+data/
+*.h5
+*.tflite
+*.weights.h5
+*.npz
+*.npy
+*.onnx
+
+# Documentation Clutter
+# Excluding redundant root documentation if moved to docs/
+# keeping only essential root files
+walkthrough.md
+task.md
+instructions.md
+
+# Streamlit
+.streamlit/
